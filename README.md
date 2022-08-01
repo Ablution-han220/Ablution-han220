@@ -8,7 +8,10 @@ I'm Haoran(Rean) Nie, a new software developer engineer!
 
 ![](https://img.shields.io/badge/Tool-VS%20Code-blue)
 
-![Rean's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ablution-han220&show_icons=true&count_private=true&theme=radical)
+![Rean's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ablution-han220&show_icons=true&count_private=true&theme=radical)  
+<div align="left">
+    <img  src="https://github-readme-streak-stats.herokuapp.com/?user=Ablution-han220&theme=dark" />
+</div>
 <!--
 **Ablution-han220/Ablution-han220** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
