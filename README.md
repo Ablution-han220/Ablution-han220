@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+I'm Rean, a new software developer engineer!
+
+![](https://img.shields.io/badge/Tool-VS%20Code-blue)
+
+[![Rean's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ablution-han220)](https://github.com/anuraghazra/github-readme-stats)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ablution-han220&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **Ablution-han220/Ablution-han220** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
