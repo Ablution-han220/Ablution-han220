@@ -1,5 +1,9 @@
-### Hi there 👋
 
+<p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=1E00F7&background=FFFFFF&multiline=true&width=500&lines=First%2C+solve+the+problem.;+Then%2C+write+the+code" alt="typing-svg">
+</p>
+
+### Hi there 👋  
 I'm Haoran(Rean) Nie, a new software developer engineer!
 
 ![](https://img.shields.io/badge/Tool-VS%20Code-blue)
