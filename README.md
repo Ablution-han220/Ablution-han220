@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm Rean, a new software developer engineer!
+I'm Haoran(Rean) Nie, a new software developer engineer!
 
 ![](https://img.shields.io/badge/Tool-VS%20Code-blue)
 
