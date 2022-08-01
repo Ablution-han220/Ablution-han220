@@ -4,9 +4,12 @@
 </p>
 
 ### Hi there 👋  
-I'm Haoran(Rean) Nie, a new software developer engineer!
+I'm Haoran(Rean) Nie, a new software developer engineer!  
 
-![](https://img.shields.io/badge/Tool-VS%20Code-blue)
+<a href="https://www.linkedin.com/in/haoran-rean-nie-15482920b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+
+![](https://img.shields.io/badge/Tool-VS%20Code-blue)  
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Ablution-han220&left_color=grey&right_color=green)
 
 ![Rean's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ablution-han220&show_icons=true&count_private=true&theme=radical)  
 <div align="left">
