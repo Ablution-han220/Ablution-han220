@@ -4,7 +4,7 @@
 </p>
 
 ### Hi there 👋  
-I'm Haoran(Rean) Nie, a new software developer engineer!  
+I'm **Haoran(Rean) Nie**, a new software developer engineer!  
 
 <a href="https://www.linkedin.com/in/haoran-rean-nie-15482920b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
