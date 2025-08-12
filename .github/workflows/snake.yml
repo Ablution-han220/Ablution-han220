@@ -1,31 +1,39 @@
-name: Generate Snake
+name: Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
-  workflow_dispatch: # Manual trigger
+    - cron: '0 0 * * *'  # 每天午夜自动运行
+  workflow_dispatch:     # 支持手动触发
   push:
     branches:
-      - main
+      - main            # 监听main分支push触发（可选）
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Contribution Snake SVG
+        uses: Platane/snk@v3
         with:
           github_user_name: Ablution-han220
-          outputs: dist/snake.svg
-          snake_color: "FF61D2"
-          background_color: "000000"
-      - run: |
-          ls -l dist/
-          rm -rf output
+          snake_color: 'FF61D2'
+          background_color: '000000'
+
+      - name: Prepare output directory and move SVG
+        run: |
           mkdir -p output
-          mv dist/snake.svg output/github-contribution-grid-snake.svg
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output
-          git commit -m "Generated colorful snake"
+          mv snake.svg output/github-contribution-grid-snake.svg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/github-contribution-grid-snake.svg
+          git commit -m "Update GitHub Contribution Snake" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
