@@ -1,0 +1,29 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight
+  workflow_dispatch: # Manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Ablution-han220
+          outputs: dist/snake.svg
+          snake_color: "FF61D2"
+          background_color: "000000"
+      - run: |
+          mkdir -p output
+          mv dist/snake.svg output/github-contribution-grid-snake.svg
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output
+          git commit -m "Generated colorful snake"
+          git push
