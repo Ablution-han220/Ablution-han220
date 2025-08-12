@@ -20,6 +20,7 @@ jobs:
           snake_color: "FF61D2"
           background_color: "000000"
       - run: |
+          ls -l dist/
           rm -rf output
           mkdir -p output
           mv dist/snake.svg output/github-contribution-grid-snake.svg
