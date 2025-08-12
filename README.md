@@ -40,7 +40,7 @@
 
 ## 🐍 Snake Contribution Animation
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ablution-han220/Ablution-han220/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/Ablution-han220/Ablution-han220/refs/heads/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
 
 
