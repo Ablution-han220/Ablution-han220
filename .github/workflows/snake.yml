@@ -20,6 +20,7 @@ jobs:
           snake_color: "FF61D2"
           background_color: "000000"
       - run: |
+          rm -rf output
           mkdir -p output
           mv dist/snake.svg output/github-contribution-grid-snake.svg
           git config --global user.name "github-actions[bot]"
